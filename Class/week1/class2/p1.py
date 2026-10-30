@@ -14,14 +14,13 @@ nota3=float(input ("valor de la nota3: "))
 promedio=(nota1+nota2+nota3) /3
 
 #resultado
-
-print("el promedio es ", promedio) 
-
+print("el promedio es ", promedio)
 
 # 4. Mostrar la información del estudiante
 print("\n===== RESULTADO ACADÉMICO =====")
-print("nombre del estudiante: ", nombre) 
-print("promedio: ", round(promedio, 2)) 
+print("nombre del estudiante: ", nombre)
+print("promedio: ", round(promedio, 2))
+
 # 5. Evaluar el promedio usando condicionales
 # si el promedio >=3.0 aprobado
 if promedio >=4.5:
